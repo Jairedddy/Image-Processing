@@ -75,7 +75,7 @@
         <h2 id="selected-industry"></h2>
         <div class="row" id="image-templates"></div>
         <div class="mt-3">
-          <h3>Upload Your Own Image</h3>
+          <h3>Upload your own image</h3>
           <input type="file" id="upload" class="form-control" accept="image/*" />
           <button id="upload-btn" class="btn btn-primary mt-2" style="display: none;">Upload</button>
         </div>
@@ -107,18 +107,24 @@
         Invoice: {
           title: "Automated Document Processing",
           templates: [
-            { url: 'https://i.postimg.cc/d0PR8z5s/image.png'},
+            { url: 'https://i.postimg.cc/bv2S8zP1/1.webp'},
+            { url: 'https://i.postimg.cc/MpnvbWvg/2.webp'},
+            { url: 'https://i.postimg.cc/vm9Tk37z/3.webp'},
           ]
         },
         Id: {
-          title: "Identity Veirification",
+          title: "Identity Verification",
           templates: [
+            { url: 'https://i.postimg.cc/RFdJ30st/image.png'},
+            { url: 'https://i.postimg.cc/RFdJ30st/image.png'},
             { url: 'https://i.postimg.cc/RFdJ30st/image.png'},
           ]
         },
         financial: {
           title: "Brand Logo Detection",
           templates: [
+            { url: 'https://i.postimg.cc/8cZ7PPkC/image.png'},
+            { url: 'https://i.postimg.cc/8cZ7PPkC/image.png'},
             { url: 'https://i.postimg.cc/8cZ7PPkC/image.png'},
           ]
         }
@@ -132,7 +138,7 @@
           <div class="card h-100" data-industry="${industry}">
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">${data.title}</h5>
-              <button class="btn btn-primary explore-btn mt-auto">Upload Image</button>
+              <button class="btn btn-primary explore-btn mt-auto">Explore</button>
             </div>
           </div>
         `;
