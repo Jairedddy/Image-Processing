@@ -107,25 +107,25 @@
         Invoice: {
           title: "Automated Document Processing",
           templates: [
-            { url: 'https://i.postimg.cc/bv2S8zP1/1.webp'},
-            { url: 'https://i.postimg.cc/MpnvbWvg/2.webp'},
-            { url: 'https://i.postimg.cc/vm9Tk37z/3.webp'},
+            { url: 'https://i.postimg.cc/RVwWfZRR/Invoice-1.webp'},
+            { url: 'https://i.postimg.cc/L8RnVFQM/Invoice-2.webp'},
+            { url: 'https://i.postimg.cc/KY8jdryq/Invoice-3.webp'},
           ]
         },
         Id: {
           title: "Identity Verification",
           templates: [
-            { url: 'https://i.postimg.cc/RFdJ30st/image.png'},
-            { url: 'https://i.postimg.cc/RFdJ30st/image.png'},
+            { url: 'https://i.postimg.cc/8cMzhZh5/aadhar-card.jpg'},
+            { url: 'https://i.postimg.cc/1tDkB2YL/sample-indian-passport-1.webp'},
             { url: 'https://i.postimg.cc/RFdJ30st/image.png'},
           ]
         },
         financial: {
           title: "Brand Logo Detection",
           templates: [
-            { url: 'https://i.postimg.cc/8cZ7PPkC/image.png'},
-            { url: 'https://i.postimg.cc/8cZ7PPkC/image.png'},
-            { url: 'https://i.postimg.cc/8cZ7PPkC/image.png'},
+            { url: 'https://i.postimg.cc/cLQfsc2d/Apple.png'},
+            { url: 'https://i.postimg.cc/TwT08sP8/Starbucks.jpg'},
+            { url: 'https://i.postimg.cc/6qmfv5fw/Under-Armour.jpg'},
           ]
         }
       };
@@ -216,7 +216,7 @@
                           content: [
                               {
                                   type: "text",
-                                  text: "Extract information from this image and return it as a JSON object. If it is something you cannot process, return a JSON output with a null key value pair for the fields that are blank but for the fields that are identified with a result, return a normal JSON key-value pair."
+                                  text: "Extract information from this image and return it as a JSON object. If it is something you cannot process, return a JSON output with a null value  for the fields that are blank but for the fields that are identified with a result, return a normal JSON key-value pair. If you detect a brand logo, the Json output should have 2 key value pairs. 1 is the brand name and other is what do they make."
                               },
                               {
                                   type: "image_url",
